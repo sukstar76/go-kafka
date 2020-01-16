@@ -1,8 +1,8 @@
 package router
 
 import(
-	"kafka/message"
-	"service"
+	"github.com/sukstar76/go-kafka/kafka/message"
+	"github.com/sukstar76/go-kafka/service"
 	"github.com/labstack/echo"
 	"net/http"
 )

@@ -2,12 +2,12 @@ package main
 
 import(
 	"net/http"
-	"github.com/sukstar76/db"
-	"github.com/sukstar76/router"
-	"github.com/sukstar76/service"
+	"github.com/sukstar76/go-kafka/db"
+	"github.com/sukstar76/go-kafka/router"
+	"github.com/sukstar76/go-kafka/service"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
-	"github.com/sukstar76/kafka"
+	"github.com/sukstar76/go-kafka/kafka"
 	"runtime"
 )
 

@@ -2,7 +2,7 @@ package message
 
 import(
 	"encoding/json"
-	"github.com/sukstar76/model"
+	"github.com/sukstar76/go-kafka/model"
 )
 
 var Message []byte

@@ -2,8 +2,8 @@ package service
 
 import(
 	"fmt"
-	"github.com/sukstar76/kafka"
-	"github.com/sukstar76/kafka/message"
+	"github.com/sukstar76/go-kafka/kafka"
+	"github.com/sukstar76/go-kafka/kafka/message"
 	ckafka "gopkg.in/confluentinc/confluent-kafka-go.v1/kafka"
 )
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 	"github.com/labstack/echo"
-	"github.com/sukstar76/model"
-	"github.com/sukstar76/service"
+	"github.com/sukstar76/go-kafka/model"
+	"github.com/sukstar76/go-kafka/service"
 )
 
 

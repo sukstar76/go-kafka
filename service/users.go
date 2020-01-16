@@ -2,7 +2,7 @@ package service
 
 import(
 	"context"
-	"github.com/sukstar76/model"
+	"github.com/sukstar76/go-kafka/model"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )
