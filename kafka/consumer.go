@@ -16,7 +16,7 @@ type ConsumerConnector struct{
 
 func ConsumerConnect() (*ConsumerConnector,error){
 	c, err := kafka.NewConsumer(&kafka.ConfigMap{
-		"bootstrap.servers":"127.18.0.5:9092",
+		"bootstrap.servers":"127.18.0.8:9092",
 		"broker.address.family":"v4",
 		"group.id": "0",
 		"session.timeout.ms": 6000,

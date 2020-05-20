@@ -15,7 +15,7 @@ const(
 
 
 func SetTopic(){
-	admin, err := kafka.NewAdminClient(&kafka.ConfigMap{"bootstrap.servers" : "127.18.0.5:9092"})
+	admin, err := kafka.NewAdminClient(&kafka.ConfigMap{"bootstrap.servers" : "127.18.0.8:9092"})
 
 	if err != nil{
 		fmt.Printf("Failed to create Admin client : %s \n",err)
